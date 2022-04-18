@@ -18,8 +18,8 @@ public class LaunchApp {
             desiredCapabilities.setCapability("platformName", "android");
             desiredCapabilities.setCapability("automationName", "uiautomator2");
             desiredCapabilities.setCapability("udid", "emulator-5554");
-            desiredCapabilities.setCapability("appPackage", "com.google.android.youtube");
-            desiredCapabilities.setCapability("appActivity", "com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity");
+            desiredCapabilities.setCapability("appPackage", "com.wdiodemoapp");
+            desiredCapabilities.setCapability("appActivity", "com.wdiodemoapp.MainActivity");
 
             URL appiumServer = new URL("http://localhost:4723/wd/hub");
             appiumDriver = new AndroidDriver<MobileElement>(appiumServer, desiredCapabilities);
