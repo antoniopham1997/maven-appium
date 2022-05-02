@@ -44,7 +44,7 @@ public class FullFillTest {
             int yEndPoint = 10 * screenHeight / 100;
 
             PointOption startPoint = new PointOption().withCoordinates(xStartPoint, yStartPoint);
-            PointOption endPoint = new PointOption().withCoordinates(yStartPoint, yEndPoint);
+            PointOption endPoint = new PointOption().withCoordinates(xEndPoint, yEndPoint);
 
             TouchAction touchAction = new TouchAction(driver);
             // Swipe up
