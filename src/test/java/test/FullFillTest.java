@@ -20,7 +20,7 @@ public class FullFillTest {
             navigateFormsButtonElement.click();
 
             MobileElement inputField = driver.findElement(MobileBy.AccessibilityId("text-input"));
-            inputField.sendKeys("hahaa");
+            inputField.sendKeys("haha");
 
             MobileElement switchToggleElement = driver.findElement(MobileBy.AccessibilityId("switch"));
             switchToggleElement.click();
